@@ -1,0 +1,9 @@
+<?php
+define('DB_HOST','localhost');//主机名
+define('DB_USER','root');//用户名
+define('DB_PWD','20020422');//密码
+define('DB_NAME','student');//数据库名
+define('DB_PORT','3306');//端口号
+define('DB_TYPE','mysql');//数据库类型
+define('DB_CHARSET','utf8');//字符集
+define('DB_DSN',DB_TYPE.":host=".DB_HOST.";dbname=".DB_NAME.";charset=".DB_CHARSET);//定义PDO的DSN
